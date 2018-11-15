@@ -1,3 +1,8 @@
+FleX Bindings for Python
+===================
+See the README.md in the subfolder 'bindings' for details
+
+
 NVIDIA Flex - 1.2.0
 ===================
 
