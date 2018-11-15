@@ -12,20 +12,20 @@ To Use the Python Bindings
 -----------------
 
 1. First, build the demo and extensions to make sure it runs without the bindings.
-    cd ${DIR}/FleX_PyBind11/demo/compiler/makelinux64
-    mkdir build
-    make -j4
-    cd ${DIR}/FleX_PyBind11/extensions/compiler/makelinux64
-    mkdir build
-    make -j4
+    * cd ${DIR}/FleX_PyBind11/demo/compiler/makelinux64
+    * mkdir build
+    * make -j4
+    * cd ${DIR}/FleX_PyBind11/extensions/compiler/makelinux64
+    * mkdir build
+    * make -j4
 
 2. Build the bindings with pip.
-    cd ${DIR}/FleX_PyBind11
-    sudo pip install ./bindings
+    * cd ${DIR}/FleX_PyBind11
+    * sudo pip install ./bindings
 
 3. Run the example python script to start the simulation.
-    cd ${DIR}/FleX_PyBind11/bindings/py_files
-    python pyflex.py
+    * cd ${DIR}/FleX_PyBind11/bindings/py_files
+    * python pyflex.py
 
 4. Add more bindings in ${DIR}/FleX/bindings/src/pythonBindings.cpp to suit your needs!
 
