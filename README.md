@@ -2,7 +2,7 @@ FleX Bindings for Python
 ===================
 Currently, the bindings here are just used to run the FleX demo. I have only uploaded the boilerplate code that lets you initialize the simulator with a single wrapper, update the frame, and send and receive variables in python. For example, there is a function that grabs particle positions. The python binding `bindings.grab_x_pos_particle(i)` allows you to grab the x position of any particle in the scene. An example for sending variables to C++ is that you can add variables to the `void initialize()` function in `bindings/main_python.cpp` and pass directly from python.
 
-The bulk of my work on these bindings was to link the libraries from FleX and CUDA to pybind11 in CMake files (this took me a while!), which allows you to create more bindings as needed. I may or may not create a more general purpose set of bindings. See the README.md in the subfolder 'bindings' for more details.
+The bulk of my work on these bindings was to link the libraries from FleX and CUDA to pybind11 in CMake files and integrate a setup.py file that lets you easily install the bindings with pip. It took me a while; hopefully it will save you time for creating more bindings as you need. I may or may not create a more general purpose set of bindings. See the README.md in the subfolder 'bindings' for more details.
 
 
 NVIDIA Flex - 1.2.0
