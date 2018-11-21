@@ -31,6 +31,10 @@ class CMakeBuild(build_ext):
 
 
         cmake_args += ['-DCMAKE_BUILD_TYPE=' + cfg]
+        FleX_ROOT = os.getenv('FleX_ROOT')
+        if FleX_ROOT is not None:
+            cmake_args += ['-DFleX_ROOT=' + FleX_ROOT]
+
         build_args += ['--', '-j2']
 
         env = os.environ.copy()
