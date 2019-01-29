@@ -1,19 +1,20 @@
 The python bindings included have been tested with the following machines:
 
-* Nvidia GT-640 GPU
-* Ubuntu 16.04, 64 bit
-* Intel Core I7
-* FleX 1.2.0
-* CUDA 9.2.148 toolkit
-* Nvidia driver version 396.54
+Machine 1:
+   * Nvidia GT-640 GPU
+   * Ubuntu 16.04, 64 bit
+   * Intel Core I7
+   * FleX 1.2.0
+   * CUDA 9.2.148 toolkit
+   * Nvidia driver version 396.54
 
-
-* Nvidia GT-1070 Ti GPU
-* Ubuntu 16.04, 64 bit
-* Intel Core I7
-* FleX 1.2.0
-* CUDA 9.2.148 toolkit
-* Nvidia driver version 415.27
+Machine 2:
+   * Nvidia GT-1070 Ti GPU
+   * Ubuntu 16.04, 64 bit
+   * Intel Core I7
+   * FleX 1.2.0
+   * CUDA 9.2.148 toolkit
+   * Nvidia driver version 415.27
 
 
 To Use the Python Bindings
