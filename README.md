@@ -4,15 +4,15 @@ Currently, the bindings here are just used to run the FleX demo. I have only upl
 
 The bulk of my work on these bindings was to link the libraries from FleX and CUDA to pybind11 in CMake files and integrate a setup.py file that lets you easily install the bindings with pip. It took me a while; hopefully it will save you time for creating more bindings as you need. I may or may not create a more general purpose set of bindings. See the README.md in the subfolder 'bindings' for more details.
 
-Citation: 
-`@misc{clever2018pyflex,`<br>`
-  author =    {Henry M. Clever},
-  title =     {pyFleX 0.1: High Level Python Bindings for FleX},
-  year =      {2018},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/henryclever/FleX_PyBind11}",
- }`
+Citation: <br>
+`@misc{clever2018pyflex,`<br>
+  `author =    {Henry M. Clever},` <br>
+  `title =     {pyFleX 0.1: High Level Python Bindings for FleX},` <br>
+  `year =      {2018},` <br>
+  `publisher = {GitHub},` <br>
+  `journal = {GitHub repository},` <br>
+  `howpublished = {\url{https://github.com/henryclever/FleX_PyBind11}",` <br>
+ `}`
 
 NVIDIA Flex - 1.2.0
 ===================
